@@ -23,6 +23,8 @@
     <ResourceLink auth="Container" global="${JDBC_JNDI_RW}" name="${JDBC_JNDI_RW}" type="javax.sql.DataSource"/>
     <ResourceLink auth="Container" global="${JDBC_JNDI_RO}" name="${JDBC_JNDI_RO}" type="javax.sql.DataSource"/>
 
+    <!-- Updated on server
+    -->
     <!-- Uncomment this to disable session persistence across Tomcat restarts -->
     <!--
     <Manager pathname="" />
