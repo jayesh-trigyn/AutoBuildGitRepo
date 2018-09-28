@@ -25,6 +25,7 @@
 
     <!-- Updated on server
 		 updated on client
+          Updated on server again
     -->
     <!-- Uncomment this to disable session persistence across Tomcat restarts -->
     <!--
