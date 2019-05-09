@@ -1,0 +1,7 @@
+FROM ansellhealthcare/guardian-java-commons:1.0.1
+WORKDIR /app
+COPY pom.xml /app/
+COPY /src /app/src/
+RUN mvn install
+RUN rm -rf /app
+RUN rm -rf /root/.m2/repository/com/admin/adminPortal
